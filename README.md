@@ -18,7 +18,7 @@ Just add all these file in your project.
 ## API Reference
 
 ```delphi
-// Creating a new CookieTable object
+// Creating a new Menu object
 var menu : TLoadMenu;
 
 menu := TLoadMenu.Create( oContainer, clRed );
@@ -32,7 +32,7 @@ Method to add items to the menu
 ##### Examples
 
 ```delphi
-// Adding new fields
+// Adding new items
 menu.addItem( 'id', ctFieldTypes.NUMBER );
 ```
 
